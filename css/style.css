@@ -10,6 +10,10 @@
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
 
+    --clr-green-dark: #005E70;
+    --clr-green-light: #8BC2C9;
+    --clr-green-medium: #5DAEB8;
+
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -34,6 +38,7 @@ body {
     font-family: var(--ff-primary);
     font-weight: var(--fw-reg);
     box-sizing: border-box;
+    background-color: var(--clr-green-light);
 }
 
 
@@ -46,7 +51,6 @@ main {
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 section {
@@ -80,17 +84,18 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 4em;
+    margin: 0;
+    max-width: 1000px;
 }
-
+/* 
 .logo {
-    max-width: 100px;
-}
+    border: 2px solid black;
+    width: 1000%;
+    height: 10vh;
+    background-image: url(../img/icono-grafico-laminaHT.png);
+  } */
 
-.header__logo {
-    height: 30px;
-    width: 80px;
-}
 
 .nav {
     position: fixed;
@@ -193,8 +198,7 @@ header {
 
 .main__img {
 
-    display: grid;
-    grid-template: auto /  auto;
+    display: flex;
 }
 
 .main__img--img {
@@ -250,7 +254,7 @@ header {
     }
 
     .main__col {
-        width: 27%;
+        width: 70%;
     }
 
 
@@ -295,7 +299,7 @@ header {
 /* footer */
 
 .footer {
-    background: var(--clr-light);
+    background: var(--clr-green-light);
     padding:  0;
     text-align: center;
 

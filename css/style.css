@@ -224,6 +224,16 @@ header {
 }
 
 
+
+.legal-advise {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 1em;
+}
+    
+    
+
+
 .col-1 {
 
     grid-row: 2;
@@ -304,6 +314,7 @@ header {
     padding:  0;
     text-align: center;
 
+
     display: grid;
     grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
     grid-column-gap: 2em;
@@ -314,9 +325,9 @@ header {
 }
 
 
-.footer-text:hover {
-    opacity: .3;
-}
+
+
+
 
 
 .footer-main,
@@ -369,4 +380,3 @@ header {
     color: #777;
    
 }
-

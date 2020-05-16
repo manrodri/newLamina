@@ -273,6 +273,10 @@ header {
 
 /* button */
 
+.buttons {
+    display: flex;
+}
+
 .container{
     padding: 2em;
     text-align: center;

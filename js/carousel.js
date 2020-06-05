@@ -5,9 +5,11 @@ const previousBtn = document.querySelector('.carousel__button--left');
 const dotsNavs = document.querySelector('.carousel__nav');
 const dots = Array.from(dotsNavs.children);
 
+alert("Página en construcción");
+
 const slideWidth = slides[0].getBoundingClientRect().width;
 
-//arrage the slides next to one another
+//arrange the slides next to one another
 const setSlidePosition = (slide, index) => {
   slide.style.left = `${slideWidth * index}px`;
 };
